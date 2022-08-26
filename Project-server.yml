@@ -53,7 +53,7 @@ Resources:
           apt-get install apache2 -y
           systemctl start apache2.service
           cd /var/www/html
-          echo "it works! Udagram, Udacity" > index.html          
+          echo "it works! This a new project, Thank you" > index.html          
       ImageId: ami-00ddb0e5626798373 
       SecurityGroups:
       - Ref: WebServerSecGroup
